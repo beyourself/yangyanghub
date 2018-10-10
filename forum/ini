@@ -14,3 +14,10 @@ smtp.qiye.aliyun.com  25   postmaster@yangyanghub.com   postmaster@yangyanghub.c
 通过 SOCKET 连接 SMTP 服务器发送(支持 ESMTP 验证) 
 使用 CRLF 作为分隔符(通常为 Windows 主机)
 同时设置 UCcenter里面的设置
+
+
+增加相关URL：
+
+discuz 修改上传大小限制  https://blog.csdn.net/xubo245/article/details/48288123
+discuz 设置 没付费钱的现实内容的设置 http://bbs.verydz.com/thread-1512-1-1.html
+discuz 设置  设置附件金币数量   http://www.discuz.net/thread-3680830-1-1.html
