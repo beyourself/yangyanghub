@@ -3,5 +3,31 @@
 http://www.discuz.net/thread-1906450-1-1.html
 http://www.discuz.net/thread-2370410-1-1.html
 安装插件 --没有测试  http://addon.discuz.com/?@mutong_bigupload.plugin.6407
-尝试修改了：http://blog.chinaunix.net/uid-24984661-id-3085204.html  
+
+
+1.修改了：http://blog.chinaunix.net/uid-24984661-id-3085204.html  
 PHP.INI里的MEMORY_LIMIT，默认是128M，我给改成200M，
+
+2.修改了：https://blog.csdn.net/lih062624/article/details/71446617/
+我们要修改的文件位于：/static/js/mobile/buildfileupload.js
+
+
+
+var maxheight = 500;
+
+var maxwidth = 500;
+
+修改为：
+
+var maxheight = 1000;
+
+var maxwidth = 3000;
+
+
+var newdataurl = canvas.toDataURL(s.files[0].type).replace(/data:.+;base64,/, '');
+
+修改为：
+
+var newdataurl = canvas.toDataURL(s.files[0].type,1.0).replace(/data:.+;base64,/, '');
+
+
