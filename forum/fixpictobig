@@ -30,4 +30,9 @@ var newdataurl = canvas.toDataURL(s.files[0].type).replace(/data:.+;base64,/, ''
 
 var newdataurl = canvas.toDataURL(s.files[0].type,1.0).replace(/data:.+;base64,/, '');
 
+3.修改图片的现实大小 800 600 显示会超出边界
+ 最终参考：https://jingyan.baidu.com/article/cdddd41c4cef0353ca00e17b.html
+ 全局 - 上传设置 - 论坛帖子附件缩略图设置: - 选择：小于指定大小、保持比率-修改成：600 530  
+ 并且设置：直接缩放原图 ，不然上传后是原图 太大 而且点击图片会显示原图 显示速度太慢 。
+
 
