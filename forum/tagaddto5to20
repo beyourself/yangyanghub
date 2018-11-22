@@ -1,0 +1,14 @@
+怎么修改Discuz!X3.2个标签数量的限制？
+
+参考：https://www.dangliu.net/t-324-1-1.html
+
+ 
+
+默认的主题标签数量是5个，很多站长觉得不够用，那么问题来了：如何修改标签数量使之大于5？
+1、更改source/module/forum/forum_post.php 第361行：
+
+2.更改source/class/class_tag.php 53行
+
+3.更改/source/language/forum/lang_template.php 第667行即可
+
+http://yangyanghub.com/it/怎么修改discuzx3-2个标签数量的限制？/
